@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/blaz/git_rep/opencv'
+g++ main.cpp -o new_output `pkg-config --cflags --libs opencv4`
+make: Leaving directory '/home/blaz/git_rep/opencv'
+ 
